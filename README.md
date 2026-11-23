@@ -14,7 +14,7 @@ In this project, I built an end-to-end bulk RNA-Seq pipeline in Python to analyz
 ## Key Findings
 * **Clear Genotype Separation on PCA:** PC1 (`67.1%`) and PC2 (`22.6%`) account for **89.7%** of total transcriptome variance, separating wild-type and `ΔmicC` replicates into two distinct clusters.
 * **488 Differentially Expressed Genes:** Loss of `micC` significantly alters **488 genes** (**172 upregulated** and **316 downregulated**).
-* **Carbon Shift & Envelope Stress Response:** Deletion of `micC` strongly induces the glycerol-3-phosphate metabolism regulon (`glpB` +7.80 $\log_2$FC, `glpA` +7.54, `glpC` +6.09, `glpD` +5.73, `glpF` +2.85) and the envelope/pH stress-inducible LPS kinase `inaA` (+3.26 $\log_2$FC), while repressing the galactose ABC transporter operon (`mglB` -5.00, `mglA` -4.81, `mglC` -4.44), fatty acid oxidation (`fadB` -3.50), and citrate synthase (`gltA` -3.07).
+* **Carbon Shift & Envelope Stress Response:**Deletion of micC strongly induces the glycerol-3-phosphate metabolism regulon (glpB +7.80, glpA +7.54, glpC +6.09, glpD +5.73, glpF +2.85; values in log₂ fold change) and the envelope/pH stress-inducible LPS kinase inaA (+3.26), while repressing the galactose ABC transporter operon (mglB -5.00, mglA -4.81, mglC -4.44), fatty acid oxidation (fadB -3.50), and citrate synthase (gltA -3.07).
 * **Enriched KEGG Pathways:** Over-representation analysis highlights significant enrichment in the **Citrate cycle / TCA cycle (`eco00020`, `padj = 3.0e-6`)**, **ABC transporters (`eco02010`, `padj = 8.71e-4`)**, and **Microbial metabolism in diverse environments (`eco01120`, `padj = 0.0099`)**.
 
 ## Files in This Repository
